@@ -1,0 +1,47 @@
+monolithic   architecture -------sabai kura eutai thau ma vayeko lai monolithic bhaninxa 
+=====>Monolithic vs Microservices - Difference Between Software ...
+Monolithic applications typically consist of a client-side UI, a database, 
+and a server-side application. Developers build all of these modules on a single code base. 
+
+
+
+ ========================monolithic tools tend to have huge code bases.==============
+
+<<<<<<<<<<<<<<<============Making a small change in a single function can require compiling and testing the entire platform, which goes against the agile approach today’s developers favor.===============================>>>>>>>>>>>
+
+
+                         ,,,,,,,,,,,,,,,,,,,,  What are microservices?=========================
+=======================>>>>>smaller applications deployed independently as loosely coupled services, 
+
+
+
+.............>>>>>>> tied together through application integration.............
+
+.............>>>>>............................the business logic may encompass multiple platforms, including software as a service
+
+
+important things to know about microservice :;::::::
+1.From a software engineering perspective, microservices can be simpler to develop
+
+2.They’re smaller in scope and therefore smaller in size, which makes it easier for developers to improve them through continuous integration and continuous delivery (CI/CD). 
+
+3.They can be written in any programming language. And they can communicate with other microservices through APIs.
+
+
+<<<<<<<<<.....IMPORTANT DOCUMENTATION TO LEARN ABOUT THE MONOLITHIC-ARCHITECTURE AND 
+MICRO-SERVICE ......>>>>>>>>
+////////////////////////////   https://www.talend.com/resources/monolithic-architecture      
+///////////////////////////
+
+Monolith vs. microservices 
+
+So which architecture is better? The answer depends on the needs of each individual organization. Businesses should consider several criteria:
+
+    Ease of implementation — You might think that monolithic systems would be easier to implement, since the software comes from a single vendor. That’s not always the case. Because monolithic systems tend to be complex, they may be as difficult to roll out as multiple individual platforms. One area where they can have an advantage is that monolithic systems are a one-stop shop for support — but that’s only an advantage if the vendor has a reputation for good support.
+    Vendor lock-in — Typically, monolithic systems attempt to cover a broad set of related functions. A monolithic web hosting platform, for instance, might include not just a web server that handles HTTP requests on the server side but also firewalls, load balancing, and a content distribution network. But because they’re designed to “do it all,” monolithic systems typically don’t work well with other systems. Which ties into the next point ... 
+    Control and ownership of their data — Monolithic systems don’t make it easy for organizations to integrate the data from their systems. You typically can use your data only within the monolith. For example, a monolithic analytics system that includes data integration, ETL data pipelines, a data warehouse, and analytics software may not provide tools that permit organizations to access their own data to integrate it with other systems, or run analytics using different software.
+    Return on investment (ROI) — There’s no point in rolling out any application without a positive ROI. Whether you’re developing your own applications or deploying SaaS solutions, your software engineering team can create microservices relatively quickly, roll them out as they’re ready, and let customers (external or internal, depending on the application) begin using them. You can get a faster time to market and a positive ROI from your services incrementally as you deploy them.
+
+The industry seems to be moving from monolith to microservice, because it’s hard to combine in a single platform all of the capabilities that businesses need and want, and that work the way they already run their businesses. Most businesses have a better overall experience by deploying the best or most suitable solution for specific needs, and tying them together via application integration.
+
+Application integration is something Talend knows a lot about. Our software can help your organization implement point-to-point SaaS integrations and build scalable modular APIs as part of an event-driven architecture. Learn more about how Talend can help you with application integration.  

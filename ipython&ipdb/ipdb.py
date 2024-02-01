@@ -1,17 +1,24 @@
-# # simple examples of ipdb in python use examples
+def my_func():
+    x=5,
+    y=6
+    print(x+y)
+    return x+y
 
-# # 1.setting a BreakPoint
-# import ipdb
+# use breakpoint
+
+a=int(0.1)
+b=1.0
+c=a+b
+breakpoint()
 
 
-# def factorial(n):
-#     if n<=0:
-#         return 1
-#     else:
-#         return n*factorial(n-1)
-    
+# breakpoint
 
-# ipdb.set_trace()
-# num=5
-# fac=factorial(num)
-# print("The factorial of ",num,"is ",fac)
+e=0.1
+f=1.0
+g=e+f
+
+breakpoint()
+
+xy=my_func()
+print('done ')
